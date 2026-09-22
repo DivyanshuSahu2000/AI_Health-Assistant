@@ -2,6 +2,7 @@ import streamlit as st
 import os
 from diet import bmi_calculator, bmr_calculator, tdee_calculator, calorie_target
 # st.page_setup(page_title="Health Assistant", page_icon="  ", layout="wide")
+st.set_page_config(layout="wide")
 st.title("AI Health Assistant")
 # st.header(" Health Information")
 st.write("Personal Health Assistance and Diet Recommendation Agent")
